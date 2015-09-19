@@ -11,13 +11,6 @@
     {
         static void Main(string[] args)
         {
-            string firstName = null;
-            string middleName = "TTT";
-            string lastName = "AAA";
-
-            var ret = ParseHelper.TryParse(firstName) ??
-                      ParseHelper.TryParse(middleName) ??
-                      ParseHelper.TryParse(lastName);
         }
 
         // without
